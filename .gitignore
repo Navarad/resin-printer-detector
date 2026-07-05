@@ -1,0 +1,28 @@
+# Other projects in this workspace - not part of this repo
+Lora Water Level/
+water-level-monitor/
+
+# Local secrets (Wi-Fi passwords, target device MACs, etc.)
+**/secrets.h
+
+# macOS
+.DS_Store
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Arduino build artifacts
+build/
+*.hex
+*.bin
+*.elf
+*.map
+
+# Backups from development
+*.bak
+
+# Environment / notes
+notes.md
+TODO.md
